@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         grid.innerHTML = "";
   
-        // Создание групп
+        
         const groups = [
           [items[0], items[1]], 
           [items[2]],           
@@ -231,7 +231,7 @@ document.addEventListener("DOMContentLoaded", () => {
         carouselContainer.appendChild(dotsContainer);
         carouselContainer.appendChild(nextButton);
   
-        // Логика прокрутки
+      
         let currentIndex = 0;
   
         const slideWidth = grid.querySelector(".carousel-slide").offsetWidth; 

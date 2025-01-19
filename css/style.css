@@ -475,7 +475,7 @@
 .carousel-btn:hover svg circle,
 #prevButton:hover svg circle,
 #nextButton:hover svg circle {
-  fill: #FBCE51;
+  fill: #fbce51;
 }
 .carousel-btn:disabled,
 #prevButton:disabled,
@@ -485,7 +485,7 @@
 .carousel-btn:disabled svg circle,
 #prevButton:disabled svg circle,
 #nextButton:disabled svg circle {
-  fill: #D6D6D6;
+  fill: #d6d6d6;
 }
 
 .viewed-cards {
@@ -838,8 +838,8 @@
   .lecture__center h3 {
     margin-bottom: 0;
   }
-  .lecture__center h3 {
-    width: 350px;
+  .lecture__center-right {
+    margin: 0 auto;
   }
   table {
     margin-bottom: 10px !important;

@@ -50,9 +50,9 @@
     height: 700px;
     margin: 0 auto;
     background-image: url("../images/background2.png");
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
     overflow: hidden;
 }
@@ -86,8 +86,6 @@
         color: #313131;
     }
 
-
-    
     p {
         font-family: "Golos_Text-Regular", sans-serif;
         font-size: 18px;
@@ -98,14 +96,14 @@
     }
 }
 
- .header__title-span-left{
+.header__title-span-left {
     text-align: left;
-       display: block;
+    display: block;
 }
 
-.header__title-span-right{
+.header__title-span-right {
     text-align: right;
-    display: block;        
+    display: block;
 }
 
 .header__title-buttons {
@@ -129,25 +127,23 @@
     transition: all 0.2s ease-in-out;
 }
 .header__title-button1 {
-        background-color: #1f1f1f;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        color: #ffffff;
-        &:hover {
-            background-color: #fbce51;
-            border: none;
-            color: #1f1f1f;
-        }
+    background-color: #1f1f1f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    &:hover {
+        background-color: #fbce51;
+        border: none;
+        color: #1f1f1f;
     }
+}
 .header__title-button2 {
-        background: none;
-        &:hover {
-            background-color: #1f1f1f;
-            border: none;
-            color: #ffffff;
-        }
+    background: none;
+    &:hover {
+        background-color: #1f1f1f;
+        border: none;
+        color: #ffffff;
     }
-    
-
+}
 
 .header__ellipse {
     width: 660px;
@@ -161,7 +157,7 @@
     background-blend-mode: overlay;
 }
 
-.header__images{
+.header__images {
     overflow: hidden;
 }
 
@@ -169,13 +165,12 @@
     position: absolute;
     bottom: -135px;
     right: -215px;
-    
 }
 
 .header__vector {
     position: absolute;
     bottom: -135px;
-    right: -220px;    
+    right: -220px;
 }
 
 .header__board6 {
@@ -289,7 +284,7 @@
             padding: 15px 0;
             text-align: left;
         }
-        
+
         tr:not(:last-child) {
             border-bottom: 2px solid #ddd;
         }
@@ -299,8 +294,8 @@
             line-height: 120%;
             color: #313131;
             span {
-                text-decoration:line-through;
-               text-decoration-color: #f54932;
+                text-decoration: line-through;
+                text-decoration-color: #f54932;
             }
         }
     }
@@ -312,14 +307,13 @@
     }
 }
 
-
 .lecture__center-right-table .border-right {
     border-right: 2px solid #ddd;
     padding-right: 16px;
     font-family: "Golos_Text-Regular", sans-serif;
 }
 
-.lecture__center-right-table .border-left{
+.lecture__center-right-table .border-left {
     padding-left: 16px;
 }
 
@@ -337,13 +331,13 @@
         text-transform: uppercase;
         line-height: 120%;
         color: #313131;
-        span{
+        span {
             display: inline-block;
             max-width: 280px;
             font-family: "Golos_Text-Regular", sans-serif;
             font-size: 20px;
             line-height: 120%;
-            text-transform:none;
+            text-transform: none;
             color: #3057a2;
         }
     }
@@ -360,12 +354,10 @@
     gap: 17px;
 }
 
-
-
 .stages__grid-item {
     display: flex;
     gap: 16px;
-    align-items:start;
+    align-items: start;
     background-image: url(../images/background2.png);
     background-size: cover;
     background-position: center;
@@ -374,7 +366,6 @@
     font-family: "Golos_Text-Medium", sans-serif;
     font-size: 20px;
     line-height: 120%;
-
 }
 
 .a {
@@ -398,28 +389,27 @@
 }
 .h {
     grid-area: h;
-    p{
+    p {
         max-width: 446px;
     }
 }
 
-.stages__airplane{
+.stages__airplane {
     position: absolute;
     bottom: 0;
     right: -50px;
     overflow: hidden;
 }
 
-.participants{
+.participants {
     margin-bottom: 140px;
-
 }
 
-.participants__title{
+.participants__title {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
-       h2 {
+    h2 {
         max-width: 806px;
         font-family: "Merriweather-Regular", sans-serif;
         font-size: 54px;
@@ -429,101 +419,97 @@
     }
 }
 
-
 .carousel-container {
     display: flex;
     gap: 20px;
     justify-content: center;
-    width: 100%; 
+    width: 100%;
+}
 
-  }
-  
-  .participants__card {
+.participants__card {
     display: flex;
     width: 394px;
     flex-direction: column;
     padding: 0 37px;
     align-items: center;
     text-align: center;
-   img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 28px;
-  }
-  b{
-    font-family: "Golos_Text-Bold", sans-serif;
-    font-size: 24px;
-    line-height: 120%;
-    color: #313131;
-    margin-bottom: 5px;
-  }
-  p{
-    font-family: "Golos_Text-Regular", sans-serif;
-    font-size: 20px;
-    line-height: 120%;
-    color: #313131;
-  }
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 28px;
+    }
+    b {
+        font-family: "Golos_Text-Bold", sans-serif;
+        font-size: 24px;
+        line-height: 120%;
+        color: #313131;
+        margin-bottom: 5px;
+    }
+    p {
+        font-family: "Golos_Text-Regular", sans-serif;
+        font-size: 20px;
+        line-height: 120%;
+        color: #313131;
+    }
 }
-  .carousel-controls {
+.carousel-controls {
     display: flex;
     gap: 17px;
     align-items: center;
     text-align: center;
+}
 
-  }
-
-  .carousel-btn,
-  #prevButton,
-  #nextButton {
+.carousel-btn,
+#prevButton,
+#nextButton {
     border: none;
     background: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-  
+
     svg {
-      circle {
-        fill: #313131; 
-        transition: fill 0.2s ease-in-out;
-      }
+        circle {
+            fill: #313131;
+            transition: fill 0.2s ease-in-out;
+        }
     }
-  
+
     &:hover {
-      svg {
-        circle {
-          fill: #FBCE51;
+        svg {
+            circle {
+                fill: #fbce51;
+            }
         }
-      }
     }
-  
+
     &:disabled {
-      svg {
-        circle {
-          fill: #D6D6D6; 
+        svg {
+            circle {
+                fill: #d6d6d6;
+            }
         }
-      }
-      cursor: not-allowed; 
+        cursor: not-allowed;
     }
-  }
-  
+}
+
 .viewed-cards {
-    font-family: 'Golos Text-Regular', sans-serif; 
+    font-family: "Golos Text-Regular", sans-serif;
     font-size: 16px;
     color: #313131;
     font-weight: bold;
 }
 
 .total-participants {
-     font-family: 'Golos Text-Regular', sans-serif; 
+    font-family: "Golos Text-Regular", sans-serif;
     font-size: 16px;
     color: #313131;
 }
 
-  
-  .carousel-info {
+.carousel-info {
     text-align: center;
-  }
+}
 
-  .carouse-button{
+.carouse-button {
     width: 113px;
     margin-top: 20px;
     padding: 7px 12px;
@@ -535,106 +521,100 @@
     color: #3057a2;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-    &:hover{
+    &:hover {
         background-color: #3057a2;
         color: #ffffff;
     }
-  }
+}
 
-  .footer {
+.footer {
     margin: 0 auto;
     background-image: url(../images/background2.png);
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center; 
-  }
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
-  .footer__text{
+.footer__text {
     padding: 40px 0 72px;
     font-family: "Golos_Text-Regular", sans-serif;
     font-size: 16px;
     line-height: 120%;
     color: #313131;
-   
-  }
-  
-
-
+}
 
 @media screen and (max-width: 1610px) {
     .header {
         max-width: 1610px;
-        
     }
 }
 
 @media screen and (max-width: 1330px) {
-.stages__airplane{
-    right: 0;
-    top: 0;
-}
-.lecture__center{
-    overflow: hidden;
-}
+    .stages__airplane {
+        right: 0;
+        top: 0;
+    }
+    .lecture__center {
+        overflow: hidden;
+    }
 }
 
 @media screen and (max-width: 1240px) {
-    .container{
-        margin: 0 20px; 
+    .container {
+        margin: 0 20px;
     }
-    .stages__grid .stages__airplane{
+    .stages__grid .stages__airplane {
         overflow: hidden;
     }
 }
 
 @media screen and (max-width: 1185px) {
-    .header__logo{
+    .header__logo {
         margin-bottom: 40px;
     }
 
-    .header{
+    .header {
         height: 1042px;
     }
 
-    .header__title{
+    .header__title {
         width: 335px;
         margin: 0 auto;
-        h1{
+        h1 {
             font-size: 36px;
         }
-        p{
+        p {
             font-size: 18px;
             text-align: left;
-            
         }
-        br{
+        br {
             display: none;
         }
     }
 
-    .header__title-buttons{
+    .header__title-buttons {
         flex-direction: column;
-        button{
+        button {
             width: 100%;
             height: 47px;
             padding: 0;
         }
     }
-    
-    .header__ellipse{
+
+    .header__ellipse {
         right: 50px;
-       top: 440px;
+        top: 440px;
     }
     .header__city {
         right: 0px;
         bottom: -500px;
     }
-    
+
     .header__vector {
         right: 0;
         bottom: -500px;
     }
-    
+
     .header__board6 {
         top: 600px;
         right: 650px;
@@ -643,328 +623,304 @@
         top: 600px;
         right: 320px;
     }
-    
+
     .header__group {
         top: 830px;
         right: 420px;
     }
-    
+
     .header__group1 {
         top: 900px;
         right: 190px;
     }
-    
 }
 
 @media screen and (max-width: 1000px) {
-
-        h3{
-          font-size: 28px !important;  
-        }
-
-        h2{
-            font-size: 36px !important;
-        }
-
-        .stages__title{
-            margin-bottom: 200px;
-        }
-        .stages__title h2 span{
-            font-size: 18px;
-        }
-
-        .stages__airplane{
-            left: 0;
-            top: 100px;
-        }
-
-        .lecture__top{
-            font-size: 18px;
-            margin-top: 48px;
-        }
+    h3 {
+        font-size: 28px !important;
     }
 
-    @media screen and (max-width: 888px){
-        .header{
-           height: 786px;
-        }
+    h2 {
+        font-size: 36px !important;
+    }
 
-        .header__title-buttons{
-            margin-top: 32px;
-        }
-       
-        .header__city {
-            right: -270px;
-            bottom: -40px;
-           height: 45px;
+    .stages__title {
+        margin-bottom: 200px;
+    }
+    .stages__title h2 span {
+        font-size: 18px;
+    }
 
-        }
-        
-        .header__vector {
-            right: -275px;
-            bottom: -430px;
-        }
-        
+    .stages__airplane {
+        left: 0;
+        top: 100px;
+    }
 
-        .header__board7 {
-            top: 700px;
-            right: 180px;
-        }
-        
-      
-        .header__ellipse{
-            right: -50px;
-           top: 430px;
-        }
-      
+    .lecture__top {
+        font-size: 18px;
+        margin-top: 48px;
+    }
+}
 
-        .creeping__line {
-            height: 38px;
-        }
-        
-        .creeping__line b {
-            font-size: 16px;
-            padding: 10px;
-        }
+@media screen and (max-width: 888px) {
+    .header {
+        height: 786px;
+    }
 
-        
-        .lecture__top{
-            justify-content: center;
-            text-align: center;
-            img{
+    .header__title-buttons {
+        margin-top: 32px;
+    }
+
+    .header__city {
+        right: -270px;
+        bottom: -40px;
+        height: 45px;
+    }
+
+    .header__vector {
+        right: -275px;
+        bottom: -430px;
+    }
+
+    .header__board7 {
+        top: 700px;
+        right: 180px;
+    }
+
+    .header__ellipse {
+        right: -50px;
+        top: 430px;
+    }
+
+    .creeping__line {
+        height: 38px;
+    }
+
+    .creeping__line b {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .lecture__top {
+        justify-content: center;
+        text-align: center;
+        img {
             position: absolute;
         }
-        } 
-        .lecture__top-title{
-          display: flex;
-          margin: 0 auto;
-          flex-direction: column;
-          gap: 261px;
-             }
-        
-        .lecture__center{
-            flex-direction: column;
-            img{
-                width: 335px;
-                height: 402px;
-            }
-            .lecture__center-right-title{
-                max-width: 800px;
-                padding: 0 20px;
-            }
-        }
-        .lecture__center-right-table {
-            border-collapse: collapse; /* Убираем промежутки между ячейками */
-           
-          }
-           tr{
+    }
+    .lecture__top-title {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 261px;
+    }
+
+    .lecture__center {
+        flex-direction: column;
+        img {
             width: 335px;
-            display: block;
-                padding: 10px 0 14px 0;
-                
-            }
-          
-          .lecture__center-right-table .border-right {
-            display: flex;
-            padding: 0; 
-            margin-bottom: 12px;
-            border: none;
-          }
-          
-          .lecture__center-right-table .border-left {
-            display: inline; 
-            margin-left: 12px; 
-            padding: 0;
-            margin: 0;
-          }
-    
-    }
-    @media (max-width: 882px) {
-        .stages__grid {
-          display: flex;
-          flex-wrap: nowrap;
-          width: 100%;
-        // overflow: hidden;
-          gap: 30px;
-          transition: transform 0.3s ease-in-out;
-        
+            height: 402px;
         }
-      
-        .stages__grid-item {
-            width: 100%;
-            height: 100%; 
-          scroll-snap-align: start;
-          display: flex;
-          flex-direction: column;
+        .lecture__center-right-title {
+            max-width: 800px;
+            padding: 0 20px;
+        }
+    }
+    .lecture__center-right-table {
+        border-collapse: collapse; /* Убираем промежутки между ячейками */
+    }
+    tr {
+        width: 335px;
+        display: block;
+        padding: 10px 0 14px 0;
+    }
+
+    .lecture__center-right-table .border-right {
+        display: flex;
         padding: 0;
-        }
-      
-        .stages__grid-item.a,
-        .stages__grid-item.b {
-            display: flex;
-            width: 100%;
-            flex-direction: row;
-            min-height: 142px;
-            padding:  20px;
-        }
-      
-        .stages__grid-item.c {
-            flex-direction: row; 
-            min-height: 300px;
-            padding:  20px;
-          
-        }
-      
-        .stages__grid-item.d,
-        .stages__grid-item.e {
-            display: flex;
-            flex-direction: row;
-            min-height: 142px;
-            padding:  20px;
-        }
-      
-        .stages__grid-item.g,
-        .stages__grid-item.h {
-            display: flex; 
-            flex-direction: row;
-            min-height: 300px;
-            padding:  20px;
-        }
-
-
-.carousel-container {
-    overflow: hidden;
-   
-    width: 100%;
-  }
-  
-  .stages__grid {
-    display: flex;
-    flex-wrap: nowrap;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .carousel-slide {
-    flex: 0 0 100%;
-    width: 100%;
-    scroll-snap-align: start;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-  }
-  
-
-  .carousel-btn {
-    position: absolute;
-    bottom: -60px;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 10;
-  }
-  
-  .carousel-btn.prev-btn {
-    left: 20%;
-  }
-  
-  .carousel-btn.next-btn {
-    right: 20%;
-  }
-  
-  .carousel-dots {
-    position: absolute;
-    bottom: -25px;
-    display: flex;
-    gap: 8px;
-    margin: 0 16px;
-  }
-  
-  .carousel-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: #bbb;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .carousel-dot.active {
-    background-color: #313131;
-  }
-
- 
-
-      }
-      
-
-      @media (max-width: 435px){
-
-        .lecture{
-            margin-bottom: 120px;
-        }
-
-        .lecture__top{
-            text-align: start;
-        }
-
-.lecture__top img{
-    width: 335px;
-}
-
-.lecture__center{
-    margin-top: 30px;
-    margin-left: 0px;
-}
-
-.lecture__center .lecture__center-right-title{
-    padding: 0;
-}
-
-.lecture__center h3{
-    margin-bottom: 0;
-}
-
-.lecture__center h3{
-    width: 350px;
-}
-
-table{
-    margin-bottom: 10px !important;
-}
-
-.stages__title{
-    margin-bottom: 190px;
-}
-
-.stages__airplane{
-    top: 200px;
-    width: 335px;
-}
-
-
-
-         .participants__card{
-    width: 335px;
-    padding: 0;
-    img{
-        width: 244px;
-      
+        margin-bottom: 12px;
+        border: none;
     }
-  }
-  
-.carousel-controls{
-    position: absolute;
-    left: 30%;
-    bottom: -80px;
+
+    .lecture__center-right-table .border-left {
+        display: inline;
+        margin-left: 12px;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media (max-width: 882px) {
+    .stages__grid {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        // overflow: hidden;
+        gap: 30px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .stages__grid-item {
+        width: 100%;
+        height: 100%;
+        scroll-snap-align: start;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .stages__grid-item.a,
+    .stages__grid-item.b {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        min-height: 142px;
+        padding: 20px;
+    }
+
+    .stages__grid-item.c {
+        flex-direction: row;
+        min-height: 300px;
+        padding: 20px;
+    }
+
+    .stages__grid-item.d,
+    .stages__grid-item.e {
+        display: flex;
+        flex-direction: row;
+        min-height: 142px;
+        padding: 20px;
+    }
+
+    .stages__grid-item.g,
+    .stages__grid-item.h {
+        display: flex;
+        flex-direction: row;
+        min-height: 300px;
+        padding: 20px;
+    }
+
+    .carousel-container {
+        overflow: hidden;
+
+        width: 100%;
+    }
+
+    .stages__grid {
+        display: flex;
+        flex-wrap: nowrap;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .carousel-slide {
+        flex: 0 0 100%;
+        width: 100%;
+        scroll-snap-align: start;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .carousel-btn {
+        position: absolute;
+        bottom: -60px;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .carousel-btn.prev-btn {
+        left: 20%;
+    }
+
+    .carousel-btn.next-btn {
+        right: 20%;
+    }
+
+    .carousel-dots {
+        position: absolute;
+        bottom: -25px;
+        display: flex;
+        gap: 8px;
+        margin: 0 16px;
+    }
+
+    .carousel-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #bbb;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .carousel-dot.active {
+        background-color: #313131;
+    }
 }
 
+@media (max-width: 435px) {
+    .lecture {
+        margin-bottom: 120px;
+    }
 
-      }
+    .lecture__top {
+        text-align: start;
+    }
+
+    .lecture__top img {
+        width: 335px;
+    }
+
+    .lecture__center {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .lecture__center .lecture__center-right-title {
+        padding: 0;
+    }
+
+    .lecture__center h3 {
+        margin-bottom: 0;
+    }
+
+    .lecture__center-right{
+        margin: 0 auto;
+    }
+
+    table {
+        margin-bottom: 10px !important;
+    }
+
+    .stages__title {
+        margin-bottom: 190px;
+    }
+
+    .stages__airplane {
+        top: 200px;
+        width: 335px;
+    }
+
+    .participants__card {
+        width: 335px;
+        padding: 0;
+        img {
+            width: 244px;
+        }
+    }
+
+    .carousel-controls {
+        position: absolute;
+        left: 30%;
+        bottom: -80px;
+    }
+}
