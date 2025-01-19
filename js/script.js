@@ -62,10 +62,25 @@ function updateCarousel() {
         participantsContainer.appendChild(createCard(participantsData[index]));
     }
 
-
     const viewedCards = Math.min(currentIndex + cardsVisible, participantsData.length);
-    carouselInfo.textContent = `${viewedCards} / ${participantsData.length}`;
+
+   
+    const viewedCardsElement = document.createElement('span');
+    viewedCardsElement.textContent = viewedCards;
+    viewedCardsElement.classList.add('viewed-cards'); 
+
+    const totalParticipantsElement = document.createElement('span');
+    totalParticipantsElement.textContent = participantsData.length;
+    totalParticipantsElement.classList.add('total-participants'); 
+
+  
+    carouselInfo.innerHTML = ''; 
+    carouselInfo.appendChild(viewedCardsElement);
+    carouselInfo.append(' / '); 
+    carouselInfo.appendChild(totalParticipantsElement);
 }
+
+
 
 
 function startAutoSlide() {
