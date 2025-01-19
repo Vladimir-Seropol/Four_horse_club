@@ -276,12 +276,8 @@ document.addEventListener("DOMContentLoaded", () => {
   
  
     window.addEventListener("resize", () => {
-      if (window.innerWidth > 882) {
         location.reload(); 
-      } else {
-        setupCarousel();
-      }
+      });
     });
-  });
   
   
